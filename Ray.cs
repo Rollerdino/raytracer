@@ -12,6 +12,16 @@ namespace template
     {
         Vector3 origin = new Vector3(0, 0, 0);
         Vector3 direction;
-        float maxDistance = 999;
+        float maxDistance = 5;
+        public Ray(Vector3 d)
+        {
+            direction = d;
+            for (float i = 0; i < maxDistance; i = i + 0.05f)
+            {
+                //run intersection code
+            }
+        }
+        
+
     }
 }
