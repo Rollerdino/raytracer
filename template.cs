@@ -20,7 +20,7 @@ namespace Template
 			GL.Enable( EnableCap.Texture2D );
 			GL.Disable( EnableCap.DepthTest );
 			GL.Hint( HintTarget.PerspectiveCorrectionHint, HintMode.Nicest );
-			ClientSize = new Size( 640, 400 );
+			ClientSize = new Size( 1024, 512 );
 			game = new Game();
 			game.screen = new Surface( Width, Height );
 			Sprite.target = game.screen;
@@ -81,6 +81,7 @@ namespace Template
 			GL.TexCoord2( 1.0f, 0.0f ); GL.Vertex2(  1.0f,  1.0f );
 			GL.TexCoord2( 0.0f, 0.0f ); GL.Vertex2( -1.0f,  1.0f );
 			GL.End();
+            //run the code from the RenderGL() method in the game class
             game.RenderGL();
 			// tell OpenTK we're done rendering
 			SwapBuffers();

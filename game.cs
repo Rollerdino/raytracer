@@ -1,6 +1,9 @@
 ﻿using System;
 using System.IO;
+using OpenTK;
+using OpenTK.Graphics;
 using OpenTK.Graphics.OpenGL;
+using OpenTK.Input;
 
 namespace Template {
 
@@ -27,9 +30,9 @@ class Game
         GL.Clear( ClearBufferMask.DepthBufferBit );
         GL.Color3( 1.0f, 0.0f, 0.0f );
         GL.Begin( PrimitiveType.Triangles );
-        GL.Vertex3( -0.5f, -0.5f, 0 );
-        GL.Vertex3( 0.5f, -0.5f, 0 );
-        GL.Vertex3( -0.5f, 0.5f, 0 );
+        GL.Vertex3( -0.1f, -0.1f, 0 );
+        GL.Vertex3( 0.1f, -0.1f, 0 );
+        GL.Vertex3( -0.1f, 0.1f, 0 );
         GL.End();      
     }
 }
