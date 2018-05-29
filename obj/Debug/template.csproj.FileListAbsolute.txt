@@ -1,0 +1,9 @@
+D:\template_INFOGR2018\bin\Debug\template.exe.config
+D:\template_INFOGR2018\bin\Debug\template.exe
+D:\template_INFOGR2018\bin\Debug\template.pdb
+D:\template_INFOGR2018\bin\Debug\OpenTK.dll
+D:\template_INFOGR2018\bin\Debug\OpenTK.dll.config
+D:\template_INFOGR2018\obj\Debug\template.csprojResolveAssemblyReference.cache
+D:\template_INFOGR2018\obj\Debug\template.csproj.CoreCompileInputs.cache
+D:\template_INFOGR2018\obj\Debug\template.exe
+D:\template_INFOGR2018\obj\Debug\template.pdb
