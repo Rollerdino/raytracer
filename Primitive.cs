@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace template
 {
-    class Primitive
+    abstract class Primitive
     {
     }
 }
