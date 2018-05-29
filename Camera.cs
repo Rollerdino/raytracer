@@ -8,6 +8,6 @@ namespace template
 {
     class Camera
     {
-        
+        //test test
     }
 }
