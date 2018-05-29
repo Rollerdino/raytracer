@@ -63,8 +63,12 @@ namespace Template
 						   OpenTK.Graphics.OpenGL.PixelFormat.Bgra, 
 						   PixelType.UnsignedByte, game.screen.pixels 
 						 );
-			// clear window contents
-			GL.Clear( ClearBufferMask.ColorBufferBit );
+            GL.ClearColor(Color.Black);
+            GL.Enable(EnableCap.Texture2D);
+            GL.Disable(EnableCap.DepthTest);
+            GL.Color3(1.0f, 1.0f, 1.0f);
+            // clear window contents
+            GL.Clear( ClearBufferMask.ColorBufferBit );
 			// setup camera
 			GL.MatrixMode( MatrixMode.Modelview );
 			GL.LoadIdentity();
@@ -77,6 +81,7 @@ namespace Template
 			GL.TexCoord2( 1.0f, 0.0f ); GL.Vertex2(  1.0f,  1.0f );
 			GL.TexCoord2( 0.0f, 0.0f ); GL.Vertex2( -1.0f,  1.0f );
 			GL.End();
+            game.RenderGL();
 			// tell OpenTK we're done rendering
 			SwapBuffers();
 		}

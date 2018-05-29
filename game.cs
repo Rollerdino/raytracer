@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using OpenTK.Graphics.OpenGL;
 
 namespace Template {
 
@@ -16,9 +17,21 @@ class Game
 	{
 		screen.Clear( 0 );
         
-		screen.Print( "hello world", 2, 2, 0xffffff );
-        screen.Line(2, 20, 160, 20, 0xff0000);
+		
 	}
+
+    public void RenderGL()
+    {
+        GL.Enable( EnableCap.DepthTest );
+        GL.Disable( EnableCap.Texture2D );
+        GL.Clear( ClearBufferMask.DepthBufferBit );
+        GL.Color3( 1.0f, 0.0f, 0.0f );
+        GL.Begin( PrimitiveType.Triangles );
+        GL.Vertex3( -0.5f, -0.5f, 0 );
+        GL.Vertex3( 0.5f, -0.5f, 0 );
+        GL.Vertex3( -0.5f, 0.5f, 0 );
+        GL.End();      
+    }
 }
 
 } // namespace Template

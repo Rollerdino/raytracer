@@ -7,3 +7,13 @@ D:\template_INFOGR2018\obj\Debug\template.csprojResolveAssemblyReference.cache
 D:\template_INFOGR2018\obj\Debug\template.csproj.CoreCompileInputs.cache
 D:\template_INFOGR2018\obj\Debug\template.exe
 D:\template_INFOGR2018\obj\Debug\template.pdb
+D:\uni\raytracer\bin\Debug\template.exe.config
+D:\uni\raytracer\bin\Debug\template.exe
+D:\uni\raytracer\bin\Debug\template.pdb
+D:\uni\raytracer\bin\Debug\OpenTK.dll
+D:\uni\raytracer\bin\Debug\OpenTK.dll.config
+D:\uni\raytracer\obj\Debug\template.csprojResolveAssemblyReference.cache
+D:\uni\raytracer\obj\Debug\template.csproj.CoreCompileInputs.cache
+D:\uni\raytracer\obj\Debug\template.csproj.CopyComplete
+D:\uni\raytracer\obj\Debug\template.exe
+D:\uni\raytracer\obj\Debug\template.pdb
