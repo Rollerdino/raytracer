@@ -10,8 +10,16 @@ namespace template
 {
     class Sphere : Primitive
     {
-        Vector3 center;
         float radius;
+        public Sphere(Vector3 c, float r)
+        {
+            radius = r;
+            Vector3 center = c;
+            float sqradius = r * r;
+            float rradius = 1 / r;
+        }
+        public override int getType() { return 1; }
+        
         
     }
 }

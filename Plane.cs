@@ -10,11 +10,15 @@ namespace template
 {
     class Plane : Primitive
     {
-        Vector3 init;
-        Vector3 determine1;
-        Vector3 determine2;
-        float[,,] corners;
+        Vector3 normal;
+        public override int getType()
+        {
+            return 2;
+        }
+        public override int Intersect(Ray r, float d)
+        {
+            float dd = 
+        }
 
-            
     }
 }
