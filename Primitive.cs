@@ -9,7 +9,10 @@ namespace template
 {
     abstract class Primitive
     {
-        Vector3 init;
+        public float init;
+        public Vector3 normal;
+        public Vector3 center;
+        public float radius;
         public virtual int getType()
         {
             return 0;
